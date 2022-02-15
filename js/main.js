@@ -37,4 +37,5 @@ document.querySelector('.divide').addEventListener('click', function () {
 
   const ans = num1 > num2 ? num1 / num2 : num2 / num1;
   document.querySelector('.ans').textContent = ans;
+  //you can add "Math.trunc(ans)" to remove digits after decimals
 });
