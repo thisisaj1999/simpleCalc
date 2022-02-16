@@ -1,3 +1,3 @@
 # simpleCalc
 
-###### To visit the page (click here)[https://thisisaj1999.github.io/simpleCalc/]!
+###### To visit the page <a href="https://thisisaj1999.github.io/simpleCalc/" target="_blank">click here!</a>
