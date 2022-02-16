@@ -45,7 +45,9 @@ body {
 .addSub .add,
 .addSub .sub,
 .mulDiv .multiply,
-.mulDiv .divide {
+.mulDiv .divide,
+.expMod .exponential,
+.expMod .modulus {
   height: 65px;
   width: 65px;
   display: flex;
@@ -54,34 +56,33 @@ body {
 }
 
 .addSub,
-.mulDiv {
+.mulDiv,
+.expMod {
   display: flex;
   flex-direction: column;
   gap: 10px;
   color: white;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 
-.add {
+.add,
+.divide,
+.exponential {
   background: #941b0c;
 }
 
-.sub {
+.sub,
+.multiply,
+.modulus {
   background: #3b1c32;
-}
-
-.multiply {
-  background: #3b1c32;
-}
-
-.divide {
-  background: #941b0c;
 }
 
 .add:hover,
 .sub:hover,
 .multiply:hover,
-.divide:hover {
+.divide:hover,
+.exponential:hover,
+.modulus:hover {
   cursor: pointer;
   background: #8e9aaf;
   color: black;
@@ -109,7 +110,7 @@ body {
   font-size: 1.9rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .btn {
     width: 100%;
   }
