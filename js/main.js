@@ -5,7 +5,6 @@ document.querySelector('.add').addEventListener('click', function () {
   const num1 = Number(document.querySelector('.val1').value);
   const num2 = Number(document.querySelector('.val2').value);
   const ans = num1 + num2;
-  console.log(ans);
   document.querySelector('.ans').textContent = ans;
 });
 
